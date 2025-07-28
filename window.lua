@@ -11,21 +11,7 @@ config.window_padding = {
 	bottom = 10,
 }
 
--- get gefault One Dark theme colors
-local my_one_dark = wezterm.color.get_builtin_schemes()["One Dark (Gogh)"]
-
--- both colors changes made to mimic this nvim colorscheme https://github.com/navarasu/onedark.nvim/blob/master/lua/onedark/palette.lua {warmer}
--- set text color to yellow
-my_one_dark.foreground = "#dbb671"
--- set background to warm gray
-my_one_dark.background = "#232326"
-
--- replace default colorscheme with updated variant
-config.color_schemes = {
-	["One Dark (Gogh)"] = my_one_dark,
-}
-
-config.color_scheme = "One Dark (Gogh)"
+config.color_scheme = "tokyonight_night"
 
 -- control inactive pane dimming
 config.inactive_pane_hsb = {
