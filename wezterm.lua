@@ -9,7 +9,7 @@ local tabline = wezterm.plugin.require("https://github.com/michaelbrusegard/tabl
 tabline.setup({
 	options = {
 		icons_enabled = true,
-		theme = "tokyonight_night",
+		theme = "OneHalfDark",
 		tabs_enabled = true,
 		theme_overrides = {},
 		section_separators = "",
@@ -25,7 +25,7 @@ tabline.setup({
 		tabline_c = "",
 		tab_active = {
 			{ "cwd", padding = 0, max_length = 32 },
-			{ "zoomed", padding = 0 },
+			{ "zoomed", padding = { left = 1 } },
 		},
 		tab_inactive = {
 			{ "cwd", padding = 1, max_length = 32 },
