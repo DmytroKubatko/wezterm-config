@@ -11,7 +11,7 @@ config.window_padding = {
 	bottom = 10,
 }
 
-config.color_scheme = "OneHalfDark"
+config.color_scheme = "Catppuccin Mocha"
 
 -- control inactive pane dimming
 config.inactive_pane_hsb = {
