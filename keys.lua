@@ -29,6 +29,7 @@ config.keys = {
 	-- Copy and Select modes
 	{ key = "c", mods = "META", action = act.ActivateCopyMode },
 	{ key = "q", mods = "META", action = act.QuickSelect },
+	{ key = "Enter", mods = "SHIFT", action = wezterm.action({ SendString = "\x1b\r" }) },
 }
 
 return config
