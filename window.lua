@@ -11,7 +11,7 @@ config.window_padding = {
 	bottom = 10,
 }
 
-config.color_scheme = "Gruvbox Dark (Gogh)"
+config.color_scheme = "Tokyo Night Moon"
 
 -- control inactive pane dimming
 config.inactive_pane_hsb = {

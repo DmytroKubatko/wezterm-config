@@ -9,7 +9,7 @@ local tabline = wezterm.plugin.require("https://github.com/michaelbrusegard/tabl
 tabline.setup({
 	options = {
 		icons_enabled = true,
-		theme = "Gruvbox Dark (Gogh)",
+		theme = "Tokyo Night Moon",
 		tabs_enabled = true,
 		theme_overrides = {},
 		section_separators = "",

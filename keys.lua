@@ -30,6 +30,9 @@ config.keys = {
 	{ key = "c", mods = "META", action = act.ActivateCopyMode },
 	{ key = "q", mods = "META", action = act.QuickSelect },
 	{ key = "Enter", mods = "SHIFT", action = wezterm.action({ SendString = "\x1b\r" }) },
+
+	-- Pane swapping
+	{ key = "0", mods = "CTRL", action = act.PaneSelect({ mode = "SwapWithActive" }) },
 }
 
 return config
